@@ -1,0 +1,14 @@
+{
+    "name": "Auto Like Facebook",
+    "manifest_version": 2,
+    "version": "1.1",
+    "description": "Auto like facebook extension by Keycode Mon",
+    "content_scripts": [{
+        "matches": [
+           "https://m.facebook.com/*"
+        ],
+        "js": [
+           "content.js"
+        ]
+     }]
+  }
