@@ -7,5 +7,5 @@ setInterval(function(){
             posts[i].click(); 
         } 
     }
-    window.scrollBy(0, 1920);
-}, 3000);
+    window.scrollBy(0, screen.height);
+}, Math.floor(Math.random() * 2001) + 3000);
